@@ -3,148 +3,196 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f4fbf7">
-  <meta name="description" content="VentPals helps children understand their feelings, find their voice, and grow through emotional literacy, creativity, and trusted connection.">
-  <title>VentPals — Every feeling has a place to belong</title>
+  <meta name="theme-color" content="#f7f5ff">
+  <meta name="description" content="VentPals is a 501(c)(3) nonprofit helping children build emotional literacy, express themselves, and grow through creativity and trusted connection.">
+  <meta property="og:title" content="VentPals — Big feelings belong here">
+  <meta property="og:description" content="Helping children understand themselves before the world tells them who to be.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ventpals.org/">
+  <title>VentPals | Big feelings belong here</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/logo.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="#" aria-label="VentPals home">
-      <span class="brand-mark" aria-hidden="true">✿</span>
-      <span>Vent<span class="brand-pals">Pals</span><small>BIG FEELINGS. BRIGHTER TOMORROWS.</small></span>
+    <a class="brand" href="#top" aria-label="VentPals home">
+      <img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/logo.png" alt="" width="46" height="46">
+      <span class="brand-word">Vent<span>Pals</span><small>BIG FEELINGS. BRIGHTER TOMORROWS.</small></span>
     </a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
     <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
-      <a href="#our-world">Our world</a>
-      <a href="#why-ventpals">Why VentPals</a>
-      <a href="#for-grownups">For grown-ups</a>
-      <a href="#get-involved">Get involved</a>
-      <a class="nav-cta" href="https://app.ventpals.org">Explore the app <span aria-hidden="true">↗</span></a>
+      <a href="#mission">Our mission</a>
+      <a href="#approach">Our approach</a>
+      <a href="#flock">Meet the flock</a>
+      <a href="#grownups">For grown-ups</a>
+      <a href="#involved">Get involved</a>
+      <a class="nav-cta" href="https://app.ventpals.org/">Explore VentPals <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
 
   <main id="main">
-    <section class="hero section-wrap">
+    <section class="hero section-wrap" id="top">
       <div class="hero-copy">
         <p class="eyebrow"><span class="eyebrow-dot"></span> A little space for big feelings</p>
-        <h1>Every feeling has<br><span>a place to belong.</span></h1>
-        <p class="hero-lede">A world where children can understand their feelings, find their voice, and grow with a little help from their feathered friends.</p>
+        <h1>Big feelings<br>belong <em>here.</em></h1>
+        <p class="hero-lede">Every child deserves room to understand what is happening inside, find their own words, and grow at their own pace.</p>
+        <p class="hero-support">VentPals makes emotional learning feel welcoming, creative, and child-led—with a flock of feathered friends along for the journey.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#our-world">Come explore <span aria-hidden="true">→</span></a>
-          <a class="text-link" href="#why-ventpals">Get to know us <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="https://app.ventpals.org/">Explore the VentPals app <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#mission">Get to know our mission <span aria-hidden="true">↓</span></a>
         </div>
-        <div class="hero-note"><span class="note-icon">♡</span><span>Made to support children. Built around their voice.</span></div>
+        <div class="hero-note"><span aria-hidden="true">♡</span> A nonprofit building emotional literacy through imagination and connection.</div>
       </div>
-      <div class="hero-art" aria-label="Illustration of friendly colorful birds in a garden">
-        <div class="sun-glow"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
-        <div class="leaf leaf-one">✦</div><div class="leaf leaf-two">✧</div>
-        <div class="bird bird-main"><span class="bird-wing"></span><span class="bird-eye"></span><span class="bird-beak"></span><span class="bird-feet"></span></div>
-        <div class="bird bird-small bird-blue"><span class="bird-wing"></span><span class="bird-eye"></span><span class="bird-beak"></span></div>
-        <div class="bird bird-pink"><span class="bird-wing"></span><span class="bird-eye"></span><span class="bird-beak"></span></div>
-        <div class="flower flower-a">✿</div><div class="flower flower-b">✿</div>
-        <div class="art-caption"><span>✦</span> Your story. Your pace. Your flock.</div>
+      <div class="hero-visual" aria-label="VentPals bird companions">
+        <div class="visual-halo"></div>
+        <div class="visual-note note-top">Your story. Your pace.</div>
+        <img class="hero-bird hero-bird-main" src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/pebble-percher.png" alt="Pebble the Dove, a gentle VentPals bird companion">
+        <img class="hero-bird hero-bird-left" src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/aura-percher.png" alt="Aura the Hummingbird">
+        <img class="hero-bird hero-bird-right" src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/cove-percher.png" alt="Cove the Bluebird">
+        <span class="spark spark-a" aria-hidden="true">✦</span><span class="spark spark-b" aria-hidden="true">✧</span>
+        <div class="visual-note note-bottom">Every child has a voice worth hearing.</div>
       </div>
     </section>
 
-    <section class="trust-strip" aria-label="VentPals values">
-      <div><span>♡</span> Child-centered</div><i></i><div><span>✧</span> Creativity-led</div><i></i><div><span>❋</span> Connection-minded</div><i></i><div><span>☼</span> Built for growth</div>
+    <section class="values-band" aria-label="VentPals guiding values">
+      <div class="values-inner">
+        <span><b>01</b> Child-led</span><i></i><span><b>02</b> Creativity-powered</span><i></i><span><b>03</b> Consent-centered</span><i></i><span><b>04</b> Growth-minded</span>
+      </div>
     </section>
 
-    <section id="our-world" class="world-section section-wrap">
-      <div class="section-heading">
-        <p class="eyebrow">A whole world of possibilities</p>
-        <h2>Meet the flock.<br><span>Find a little inspiration.</span></h2>
-        <p>VentPals has sixteen bird companions, each with a distinct personality and story. Meet a few of them here, then explore the full flock in Flockopedia.</p>
+    <section class="section-wrap mission-section" id="mission">
+      <div class="section-intro">
+        <p class="eyebrow">Why VentPals exists</p>
+        <h2>Help children understand themselves <em>before the world tells them who to be.</em></h2>
       </div>
-      <div class="flock-grid">
-        <article class="flock-card card-mint"><div class="bird-token token-mint">🐦</div><p class="card-kicker">Curiosity & discovery</p><h3>Aura</h3><p>Meet Aura the Hummingbird and discover a world where every feeling can be explored.</p></article>
-        <article class="flock-card card-blue"><div class="bird-token token-blue">🐦</div><p class="card-kicker">A place to feel heard</p><h3>Cove</h3><p>Cove the Bluebird reminds us that making space for feelings is a good place to begin.</p></article>
-        <article class="flock-card card-pink"><div class="bird-token token-pink">🕊️</div><p class="card-kicker">Care & connection</p><h3>Clover</h3><p>Say hello to Clover the Lovebird and the many ways we can show care and connection.</p></article>
-        <article class="flock-card card-lavender"><div class="bird-token token-lavender">🦉</div><p class="card-kicker">Reflection & expression</p><h3>Echo</h3><p>Echo the Owl invites children to pause, reflect, and find their own words.</p></article>
+      <div class="mission-copy">
+        <p class="lead">VentPals is a 501(c)(3) nonprofit organization dedicated to helping children understand, express, and navigate their emotions with confidence.</p>
+        <p>We create gentle, kid-friendly emotional-literacy experiences that make room for curiosity, self-expression, and meaningful connection with trusted adults.</p>
+        <p>Our mission is simple: give every child a safe place to feel, speak, and be understood—without shame, pressure, or someone else deciding what their feelings mean.</p>
+        <a class="text-link" href="#approach">Discover our approach <span aria-hidden="true">→</span></a>
       </div>
-      <div class="center-action"><a class="button button-soft" href="https://app.ventpals.org">Step into the VentPals world <span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="approach-section" id="approach">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">The VentPals approach</p>
+          <h2>Not another voice telling kids who to be.<br><em>A space to discover their own.</em></h2>
+          <p>Emotional literacy grows through practice, trust, and the freedom to express things in more than one way.</p>
+        </div>
+        <div class="approach-grid">
+          <article class="approach-card approach-lilac"><span class="approach-number">01</span><div class="approach-icon">♡</div><h3>Notice without judgment</h3><p>Children can begin with what they notice and feel. No labels, diagnoses, or pressure to explain everything perfectly.</p></article>
+          <article class="approach-card approach-peach"><span class="approach-number">02</span><div class="approach-icon">✎</div><h3>Express in their own way</h3><p>Words are only one way to communicate. Creative prompts, reflection, and playful activities invite children to find their own voice.</p></article>
+          <article class="approach-card approach-mint"><span class="approach-number">03</span><div class="approach-icon">🌱</div><h3>Grow at their own pace</h3><p>Growth is not a race or a score. Children can explore, pause, revisit, and take small steps that feel right to them.</p></article>
+          <article class="approach-card approach-sky"><span class="approach-number">04</span><div class="approach-icon">🤝</div><h3>Connect with trust</h3><p>Children deserve a voice in who supports them and what they choose to share. Trusted connection should strengthen—not replace—their agency.</p></article>
+        </div>
+      </div>
     </section>
 
     <section class="experience-section">
       <div class="section-wrap experience-layout">
-        <div class="experience-art">
-          <div class="experience-circle circle-back"></div><div class="experience-circle circle-front"></div>
-          <div class="mini-card mini-card-one"><span>☀️</span><b>Check in</b><small>How am I feeling?</small></div>
-          <div class="mini-card mini-card-two"><span>🎨</span><b>Create</b><small>Make it your own</small></div>
-          <div class="mini-card mini-card-three"><span>🌱</span><b>Grow</b><small>One step at a time</small></div>
-          <div class="experience-star">✦</div>
+        <div class="experience-visual">
+          <div class="experience-orbit orbit-one"></div><div class="experience-orbit orbit-two"></div>
+          <div class="experience-tile tile-one"><span>☀</span><b>Notice</b><small>What is happening inside?</small></div>
+          <div class="experience-tile tile-two"><span>🎨</span><b>Express</b><small>Make it your own.</small></div>
+          <div class="experience-tile tile-three"><span>🌿</span><b>Explore</b><small>One step at a time.</small></div>
+          <img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/clover-percher.png" alt="Clover the Lovebird" class="experience-bird">
         </div>
         <div class="experience-copy">
-          <p class="eyebrow">More than a feelings check-in</p>
-          <h2>Feel it. Express it.<br><span>Grow through it.</span></h2>
-          <p>VentPals brings emotional learning into a playful, creative experience. Children can explore feelings, express what is on their minds, and build confidence at their own pace.</p>
-          <ul class="check-list">
-            <li><span>✓</span> Feeling check-ins and reflection</li>
-            <li><span>✓</span> Creative activities and storytelling</li>
-            <li><span>✓</span> Bird companions and growth journeys</li>
-            <li><span>✓</span> Trusted connections and supportive spaces</li>
+          <p class="eyebrow">A child-first experience</p>
+          <h2>More than a feelings check-in.</h2>
+          <p>VentPals is being built as a playful world for emotional learning. Children can meet their VentPal, explore the flock, reflect, create, and learn ways to communicate what matters to them.</p>
+          <ul class="feature-list">
+            <li><span>✓</span> A personal bird companion chosen by the child</li>
+            <li><span>✓</span> Flockopedia: a friendly guide to the characters</li>
+            <li><span>✓</span> Creative reflection and emotional-learning activities</li>
+            <li><span>✓</span> Child-led Nest Connections with trusted adults</li>
           </ul>
-          <a class="text-link" href="#for-grownups">See how grown-ups can support <span aria-hidden="true">→</span></a>
+          <p class="small-note">The app is evolving. Some experiences are in development or preview, and we will be clear about what is available as it grows.</p>
+          <a class="button button-outline" href="https://app.ventpals.org/">Visit the app <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
 
-    <section id="why-ventpals" class="mission-section section-wrap">
-      <div class="mission-intro">
-        <p class="eyebrow">Why we are here</p>
-        <h2>Children deserve to understand themselves <span>before the world tells them who to be.</span></h2>
+    <section class="flock-section section-wrap" id="flock">
+      <div class="section-heading">
+        <p class="eyebrow">A flock with many stories</p>
+        <h2>Meet the <em>VentPals.</em></h2>
+        <p>Each VentPal has a distinct personality and perspective. A child chooses their own companion—their bird stays theirs through every feeling and every stage of growth.</p>
       </div>
-      <div class="mission-body">
-        <p>VentPals is a nonprofit initiative focused on emotional literacy, self-expression, and trusted connection. We believe children should have room to name what they feel, explore what those feelings mean, and practice using their voice.</p>
-        <p>Our approach is preventative and educational—not therapy, diagnosis, or a replacement for professional care. We create supportive tools that can complement the caring people and resources already in a child's life.</p>
-        <div class="mission-stamp"><span>♡</span><b>Lead with kindness.<br>Move with talent.</b></div>
+      <div class="bird-grid">
+        <article class="bird-card"><div class="bird-image tint-lilac"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/aura-percher.png" alt="Aura the Hummingbird"></div><h3>Aura</h3><p>Hummingbird · Emotional awareness</p></article>
+        <article class="bird-card"><div class="bird-image tint-blue"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/cove-percher.png" alt="Cove the Bluebird"></div><h3>Cove</h3><p>Bluebird · Comfort and safe exploration</p></article>
+        <article class="bird-card"><div class="bird-image tint-green"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/clover-percher.png" alt="Clover the Lovebird"></div><h3>Clover</h3><p>Lovebird · Safety and belonging</p></article>
+        <article class="bird-card"><div class="bird-image tint-sky"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/breezy-percher.png" alt="Breezy the Bluebird"></div><h3>Breezy</h3><p>Bluebird · Understanding unseen challenges</p></article>
+        <article class="bird-card"><div class="bird-image tint-lavender"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/drift-percher.png" alt="Drift the Swallow"></div><h3>Drift</h3><p>Swallow · Reflection and processing</p></article>
+        <article class="bird-card"><div class="bird-image tint-cream"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/echo-percher.png" alt="Echo the Owl"></div><h3>Echo</h3><p>Owl · Listening and validation</p></article>
+        <article class="bird-card"><div class="bird-image tint-peach"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/flamez-percher.png" alt="Ember the Falcon"></div><h3>Ember</h3><p>Falcon · Bold expression and fresh starts</p></article>
+        <article class="bird-card"><div class="bird-image tint-coral"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/flare-percher.png" alt="Flare the Phoenix"></div><h3>Flare</h3><p>Phoenix · Motivation and trying new things</p></article>
+        <article class="bird-card"><div class="bird-image tint-yellow"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/flicker-percher.png" alt="Flicker the Finch"></div><h3>Flicker</h3><p>Finch · Hope and curiosity</p></article>
+        <article class="bird-card"><div class="bird-image tint-lavender"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/sable-percher.png" alt="Sable the Nightingale"></div><h3>Sable</h3><p>Nightingale · Resilience and inner strength</p></article>
+        <article class="bird-card"><div class="bird-image tint-lilac"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/lumen-percher.png" alt="Lumen the Heron"></div><h3>Lumen</h3><p>Heron · Insight and clarity</p></article>
+        <article class="bird-card"><div class="bird-image tint-green"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/nova-percher.png" alt="Nova the Hawk"></div><h3>Nova</h3><p>Hawk · Perspective and growth</p></article>
+        <article class="bird-card"><div class="bird-image tint-cream"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/pebble-percher.png" alt="Pebble the Dove"></div><h3>Pebble</h3><p>Dove · Gentle guidance</p></article>
+        <article class="bird-card"><div class="bird-image tint-blue"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/guardian-percher.png" alt="Guardian the Eagle"></div><h3>Guardian</h3><p>Eagle · Protection and boundaries</p></article>
+        <article class="bird-card"><div class="bird-image tint-peach"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/solace-percher.png" alt="Solace the Robin"></div><h3>Solace</h3><p>Robin · Comfort and soothing</p></article>
+        <article class="bird-card"><div class="bird-image tint-green"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/twig-percher.png" alt="Twig the Sparrow"></div><h3>Twig</h3><p>Sparrow · Early growth and discovery</p></article>
       </div>
+      <div class="center-action"><a class="button button-soft" href="https://app.ventpals.org/meet-the-flock.html">Explore Flockopedia <span aria-hidden="true">→</span></a></div>
     </section>
 
-    <section id="for-grownups" class="grownups-section">
+    <section class="grownups-section" id="grownups">
       <div class="section-wrap grownups-layout">
-        <div>
-          <p class="eyebrow">For the people in their corner</p>
-          <h2>Trusted adults<br>can make a <span>world of difference.</span></h2>
-          <p>Parents, caregivers, educators, mentors, and other trusted adults all have a role in helping children feel supported—without taking away their voice.</p>
+        <div class="grownups-intro">
+          <p class="eyebrow">A flock takes a community</p>
+          <h2>Support the child.<br><em>Respect their voice.</em></h2>
+          <p>Parents, caregivers, educators, mentors, and community partners can help create the conditions where children feel safe enough to express themselves and confident enough to grow.</p>
         </div>
-        <div class="grownup-cards">
-          <article><span class="grownup-icon">🏡</span><div><h3>Families & caregivers</h3><p>Explore ways to support emotional learning at home and across life's changes.</p><a href="mailto:hello@ventpals.org?subject=VentPals%20for%20families">Connect with us ↗</a></div></article>
-          <article><span class="grownup-icon">🌈</span><div><h3>Schools & organizations</h3><p>Bring creative emotional-literacy experiences into the communities you serve.</p><a href="mailto:hello@ventpals.org?subject=VentPals%20partnership">Explore partnership ↗</a></div></article>
-          <article><span class="grownup-icon">🤝</span><div><h3>Supporters & volunteers</h3><p>Help make welcoming, child-centered resources more accessible.</p><a href="#get-involved">Find your way to help ↗</a></div></article>
+        <div class="grownup-list">
+          <article><span>⌂</span><div><h3>Families and caregivers</h3><p>Explore ways to make room for honest conversations, emotional learning, and connection at home.</p></div></article>
+          <article><span>✳</span><div><h3>Schools and youth organizations</h3><p>Connect with us about child-centered emotional-literacy resources and potential community partnerships.</p></div></article>
+          <article><span>♡</span><div><h3>Educators and helping professionals</h3><p>Share your perspective as we continue shaping tools that complement—not replace—the support children already receive.</p></div></article>
+          <article><span>✦</span><div><h3>Volunteers and supporters</h3><p>Help us make thoughtful, accessible emotional-learning experiences available to more children.</p></div></article>
         </div>
       </div>
     </section>
 
-    <section id="get-involved" class="get-involved section-wrap">
-      <div class="involved-panel">
-        <div class="involved-spark spark-one">✦</div><div class="involved-spark spark-two">✧</div>
-        <p class="eyebrow">There is room in this flock for you</p>
-        <h2>Let's make space<br>for <span>every feeling.</span></h2>
-        <p>Whether you are a family, an educator, an organization, or someone who believes in helping children thrive, we'd love to meet you.</p>
-        <div class="hero-actions">
-          <a class="button button-white" href="mailto:hello@ventpals.org?subject=Hello%20VentPals">Say hello <span aria-hidden="true">→</span></a>
-          <a class="involved-link" href="https://app.ventpals.org">Visit the app ↗</a>
+    <section class="involvement-section section-wrap" id="involved">
+      <div class="involvement-panel">
+        <div class="involvement-decoration decoration-one">✦</div><div class="involvement-decoration decoration-two">✧</div>
+        <p class="eyebrow">Help the mission take flight</p>
+        <h2>There is room in this flock <em>for you.</em></h2>
+        <p>Your support can help expand access to child-centered emotional-literacy tools, creative learning resources, and trusted community connections.</p>
+        <div class="hero-actions centered-actions">
+          <a class="button button-white" href="https://www.paypal.com/us/fundraiser/charity/5887048">Support VentPals <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="mailto:letstalk@ventpals.com?subject=VentPals%20partnership">Partner with us <span aria-hidden="true">→</span></a>
         </div>
       </div>
+    </section>
+
+    <section class="story-section section-wrap" id="story">
+      <div class="story-mark"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/logo.png" alt="VentPals logo"></div>
+      <div><p class="eyebrow">The heart behind the work</p><h2>Every child deserves to be heard.</h2><p>VentPals began with a simple belief: children should have tools to understand themselves before the world defines them. We are building a welcoming place where emotional learning can be creative, personal, and rooted in respect for each child's voice.</p><a class="text-link" href="mailto:letstalk@ventpals.com?subject=Connect%20with%20VentPals">Start a conversation <span aria-hidden="true">→</span></a></div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-top">
-      <a class="brand footer-brand" href="#"><span class="brand-mark">✿</span><span>Vent<span class="brand-pals">Pals</span><small>BIG FEELINGS. BRIGHTER TOMORROWS.</small></span></a>
-      <p>Helping children understand themselves before the world tells them who to be.</p>
-      <div class="footer-links"><a href="#why-ventpals">Our mission</a><a href="#for-grownups">For grown-ups</a><a href="mailto:hello@ventpals.org">Contact</a><a href="https://app.ventpals.org">Open the app ↗</a></div>
+    <div class="footer-main section-wrap">
+      <div class="footer-brand-block">
+        <a class="brand footer-brand" href="#top"><img src="https://raw.githubusercontent.com/kweetnorman/VentPals/main/assets/images/logo.png" alt="" width="42" height="42"><span class="brand-word">Vent<span>Pals</span><small>BIG FEELINGS. BRIGHTER TOMORROWS.</small></span></a>
+        <p>Helping children understand themselves before the world tells them who to be.</p>
+      </div>
+      <div class="footer-column"><h3>Explore</h3><a href="#mission">Our mission</a><a href="#approach">Our approach</a><a href="#flock">Meet the flock</a><a href="#grownups">For grown-ups</a></div>
+      <div class="footer-column"><h3>Connect</h3><a href="mailto:letstalk@ventpals.com">Contact VentPals</a><a href="https://app.ventpals.org/">Explore the app ↗</a><a href="https://keepsakes.ventpals.com/">Keepsakes ↗</a><a href="https://www.linkedin.com/in/shaquetanorman">LinkedIn ↗</a></div>
+      <div class="footer-column"><h3>Follow along</h3><a href="https://www.instagram.com/ventpals_ig/">Instagram ↗</a><a href="https://www.facebook.com/people/VentPals/61587797010080/">Facebook ↗</a><a href="https://www.tiktok.com/@ventpals">TikTok ↗</a></div>
     </div>
-    <div class="footer-bottom"><span>© <span id="year"></span> VentPals. All rights reserved.</span><span>Built with care for big feelings and bright futures.</span></div>
-    <p class="footer-disclaimer">VentPals provides educational emotional-literacy resources and is not a mental-health treatment or crisis service. If a child needs immediate help, contact local emergency or crisis support.</p>
+    <div class="footer-bottom section-wrap"><span>© <span id="year"></span> VentPals. All rights reserved.</span><span>A 501(c)(3) nonprofit organization · Dallas, Texas</span></div>
+    <p class="footer-disclaimer section-wrap">VentPals provides educational emotional-literacy resources. It is not therapy, mental-health treatment, diagnosis, or crisis support. Our tools are designed to complement the care and guidance of trusted adults and qualified professionals.</p>
   </footer>
 </body>
 </html>
