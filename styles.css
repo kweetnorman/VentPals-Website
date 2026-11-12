@@ -41,3 +41,5 @@
   .keepsakes-art{min-height:170px}
   .keepsakes-art img{height:130px}
 }
+
+.nonprofit-status{display:inline-flex;align-items:center;margin:0 0 14px;padding:7px 12px;border-radius:22px;background:#e5f5eb;color:#347d61;font-size:10px;font-weight:800;letter-spacing:.25px}
