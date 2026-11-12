@@ -3,30 +3,32 @@
 The public-facing nonprofit website for [VentPals](https://ventpals.org).
 
 - **Public website:** https://ventpals.org
-- **Interactive app:** https://app.ventpals.org
-- **Hosting target:** GitHub Pages
+- **Interactive child experience:** https://app.ventpals.org
+- **Hosting:** GitHub Pages
 - **Stack:** Static HTML, CSS, and vanilla JavaScript
 
 ## Files
 
-- `index.html` — page structure and content
+- `index.html` — public-site structure and content
 - `styles.css` — responsive visual system
-- `script.js` — mobile navigation and small interactions
+- `script.js` — mobile navigation and footer year
 
 ## Local preview
 
-Open `index.html` in a browser, or use a local static server.
+Open `index.html` in a browser, or run a local static server from this directory.
 
-## GitHub Pages setup
+## Brand assets
 
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select the `main` branch and `/(root)`, then save.
-4. When ready to connect the domain, set the custom domain to `ventpals.org` in Pages settings and add the matching DNS records at the domain provider.
-5. Wait for GitHub to verify the domain and issue the certificate before enabling **Enforce HTTPS**.
+The public site currently references approved VentPals bird artwork and logo from the main VentPals app repository. The images are hosted at the app repository's public raw asset URLs. A future cleanup should copy approved public-facing assets into this repository so the nonprofit site is independent of the app repository's asset paths.
 
-Keep the existing app repository and its `app.ventpals.org` configuration separate. Do not move app files into this repository.
+## Content safeguards
 
-## Content and brand notes
+- VentPals is an emotional-literacy and educational initiative, not therapy, diagnosis, treatment, or crisis support.
+- A child's chosen VentPal is their personal companion; it is not assigned by mood or feeling.
+- Nest Connections are child-led and should not be described as automatic sharing of a child's private reflections.
+- The public site should distinguish current app experiences from previews, planned work, or features still in development.
+- Do not publish personal identifiers, private contact details, or unverified legal/compliance claims.
 
-This is the first public-site draft. The bird illustrations in the hero are original CSS artwork placeholders; replace or augment them with the approved VentPals bird artwork when those image assets are added. Review contact details, privacy/safeguarding pages, nonprofit disclosures, and any legal/compliance language before public launch.
+## GitHub Pages
+
+The `CNAME` file points to `ventpals.org`. Keep this repository separate from the child app repository and preserve the custom-domain configuration.
