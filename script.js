@@ -9,11 +9,22 @@ if (menuButton && navigation) {
     navigation.classList.toggle("is-open", !open);
   });
 
+  const closeMenu = () => {
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "Open navigation");
+    navigation.classList.remove("is-open");
+  };
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && navigation.classList.contains("is-open")) {
+      closeMenu();
+      menuButton.focus();
+    }
+  });
+
   navigation.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
-      menuButton.setAttribute("aria-expanded", "false");
-      menuButton.setAttribute("aria-label", "Open navigation");
-      navigation.classList.remove("is-open");
+      closeMenu();
     });
   });
 }
