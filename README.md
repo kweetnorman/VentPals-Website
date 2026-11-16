@@ -9,7 +9,7 @@ The public-facing nonprofit website for [VentPals](https://ventpals.org).
 
 ## Files
 
-- `index.html` — public-site structure and content
+- `index.html` — public-site structure and content, including the development roadmap, funding priorities, donor pathway, partnership invitations, and transparency information
 - `styles.css` — responsive visual system
 - `script.js` — mobile navigation and footer year
 
@@ -24,10 +24,16 @@ The public site currently references approved VentPals bird artwork and logo fro
 ## Content safeguards
 
 - VentPals is an emotional-literacy and educational initiative, not therapy, diagnosis, treatment, or crisis support.
+- The app is an evolving demonstration. Clearly distinguish what can currently be explored from previews, proposed work, and features still in development.
 - A child's chosen VentPal is their personal companion; it is not assigned by mood or feeling.
 - Nest Connections are child-led and should not be described as automatic sharing of a child's private reflections.
-- The public site should distinguish current app experiences from previews, planned work, or features still in development.
+- Roadmap workstreams and funding priorities are proposals, not claims of funded commitments or completed work.
 - Do not publish personal identifiers, private contact details, or unverified legal/compliance claims.
+- Verify nonprofit status, donation processing, tax-deductibility language, and organizational details against current records before making specific claims.
+
+## Funding and partnership content
+
+The public site now explains three support pathways: individual donations, grantmaker conversations, and strategic partnerships. It outlines proposed development priorities and intended evaluation areas without inventing a budget, fundraising target, launch date, partner commitments, or impact results. Add those details only after they are approved and substantiated.
 
 ## GitHub Pages
 
